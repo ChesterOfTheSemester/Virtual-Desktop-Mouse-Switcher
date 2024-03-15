@@ -29,7 +29,6 @@ LRESULT CALLBACK MouseEvent(int nCode, WPARAM wParam, LPARAM lParam) {
     return CallNextHookEx(hMouseHook, nCode, wParam, lParam);
 }
 
-
 // Hide window
 LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam) {
     switch (uMsg) {
